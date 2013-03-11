@@ -1,0 +1,121 @@
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+ 
+              <TableRow
+            android:id="@+id/tableRow0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_Azimuth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Azimuth Sensor"
+                android:onClick="StartAzimuth" />
+
+            <TextView
+                android:id="@+id/textView_Azimuth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Light Sensor"
+                android:onClick="StartLight" />
+
+            <TextView
+                android:id="@+id/textView_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </TableRow>
+              <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Pressure Sensor"
+                android:onClick="StartPressure" />
+
+            <TextView
+                android:id="@+id/textView_pressure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+        </TableRow>
+     
+              <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button_Accelerometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Accelerometer Sensor"
+                android:onClick="StartAccelerometer" />
+        </TableRow>
+              
+          
+              <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+     
+            <TextView
+                android:id="@+id/textView_Accelerometer_x"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="" />
+             </TableRow>
+               
+              <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               
+               
+               <TextView
+                android:id="@+id/textView_Accelerometer_y"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="" />
+               </TableRow>
+                <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+               
+                <TextView
+                android:id="@+id/textView_Accelerometer_z"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="" />
+               </TableRow>
+              
+                
+                
+              
+              
+
+    </TableLayout>
